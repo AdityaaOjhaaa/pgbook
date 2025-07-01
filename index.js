@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 
 // CORS Configuration
 app.use(cors({
-  origin: "https://adityaaojhaaa.github.io",
+  origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
